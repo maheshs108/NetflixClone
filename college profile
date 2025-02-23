@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Retreat</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 2em 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .image-item {
+            width: 30%;
+            margin-bottom: 20px;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+
+        .image-item img:hover {
+            transform: scale(1.05);
+        }
+
+        .content {
+            margin-top: 30px;
+        }
+
+        footer {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 1em 0;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Our Nature Retreat</h1>
+        <p>Experience the beauty of the outdoors.</p>
+    </header>
+
+    <div class="container">
+        <div class="image-gallery">
+            <div class="image-item">
+                <img src="mountain.jpg" alt="Mountain Landscape">
+            </div>
+            <div class="image-item">
+                <img src="forest.jpg" alt="Forest Path">
+            </div>
+            <div class="image-item">
+                <img src="lake.jpg" alt="Calm Lake">
+            </div>
+            <div class="image-item">
+              <img src="meadow.jpg" alt="Flowery Meadow">
+            </div>
+            <div class="image-item">
+              <img src="river.jpg" alt="River Stream">
+            </div>
+            <div class="image-item">
+              <img src="sunset.jpg" alt="Sunset over mountains">
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>About Our Retreat</h2>
+            <p>Our nature retreat offers a peaceful escape from the hustle and bustle of daily life. Immerse yourself in the tranquility of nature and rejuvenate your mind, body, and soul. Enjoy scenic views, hiking trails, and the serenity of the great outdoors. We are dedicated to providing a sustainable and eco-friendly experience.</p>
+            <p>Come and discover the beauty of nature with us.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Nature Retreat. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
